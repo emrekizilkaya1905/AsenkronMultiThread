@@ -24,7 +24,7 @@ namespace TextForAdd
 		private async void btnRead_Click(object sender, EventArgs e)
 		{
 			string data = string.Empty;
-			Task<string>okuma=	ReadFileAsync();
+			Task<string>okuma=	ReadFileAsync2();
 			richTextBox2.Text = await new HttpClient().GetStringAsync("https://www.google.com");
 			data = await okuma;
 			richTextBox1.Text = data;
@@ -57,6 +57,14 @@ namespace TextForAdd
 				data = await myTask;
 				return data;
 			}
+		}
+
+		private Task<string> ReadFileAsync2()
+		{
+			 StreamReader s = new StreamReader("dosya.txt");
+			
+				return s.ReadToEndAsync();
+			
 		}
 	}
 }

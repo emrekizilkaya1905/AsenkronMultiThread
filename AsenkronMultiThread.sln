@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextForAdd", "TextForAdd\TextForAdd.csproj", "{70B13E82-5248-4AB5-A3B5-759580B702DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskWebApp.Api", "TaskWebApp.Api\TaskWebApp.Api.csproj", "{DA628897-C345-4F8E-B3EF-D9005A3272EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{70B13E82-5248-4AB5-A3B5-759580B702DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70B13E82-5248-4AB5-A3B5-759580B702DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70B13E82-5248-4AB5-A3B5-759580B702DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA628897-C345-4F8E-B3EF-D9005A3272EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA628897-C345-4F8E-B3EF-D9005A3272EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA628897-C345-4F8E-B3EF-D9005A3272EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA628897-C345-4F8E-B3EF-D9005A3272EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
